@@ -54,30 +54,6 @@ Relaciones clave:
 - 1:1 entre Pedidos y Transacciones.
 - 1:N entre País → Ciudad → Barrio → Dirección → Cliente.
 
----
 
-##  Documentación
-
-Consulta el documento `docs/Documentacion_BaseDeDatos.pdf` para una descripción completa del diseño, incluyendo:
-
-- Justificación de diseño por entidad y relación
-- Reglas de integridad y restricciones
-- Tipos de datos utilizados
-- Restricciones de unicidad (por ejemplo: ISBN único)
-- Lógica para actualizar stock tras compra
-
----
-
-## Script SQL
-
-El script `sql/crear_tablas.sql` contiene:
-
-- Creación de todas las tablas
-- Claves primarias y foráneas
-- Declaración de campos ENUM (`pedido_estado`, `transaccion_metodo`)
-- Restricciones de unicidad y no nulos
-- Relaciones y ON DELETE/UPDATE
-
----
 
 
